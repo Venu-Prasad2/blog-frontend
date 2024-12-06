@@ -1,0 +1,90 @@
+/* CreatePost.css */
+
+.create-post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: lightblue; /* Light background for create post page */
+  }
+  
+  .create-post-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Maximum width for the form */
+  }
+  
+  .create-post-title {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .input-field, .textarea-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .textarea-field {
+    height: 120px;
+    resize: none;
+  }
+  
+  .submit-button {
+    width: 60%;
+    padding: 12px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .create-post-form {
+      padding: 15px;
+    }
+  
+    .create-post-title {
+      font-size: 25px; /* Smaller title font for smaller screens */
+    }
+  
+    .input-label, .submit-button {
+      font-size: 14px; /* Adjust font size of input label and button for smaller screens */
+    }
+  }
